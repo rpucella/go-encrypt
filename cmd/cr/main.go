@@ -10,8 +10,6 @@ import (
 	"path/filepath"
 )
 
-//const passPhrase = "Cette faucille d'or dans le champ des etoiles"
-
 func main() {
 	encryptCmd := flag.NewFlagSet("encrypt", flag.ExitOnError)
 	decryptCmd := flag.NewFlagSet("decrypt", flag.ExitOnError)
